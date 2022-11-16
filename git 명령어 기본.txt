@@ -1,0 +1,17 @@
+<< git 명령어 기본 >>
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/es808/test01.git
+
+git config --global user.email "이메일"
+git config --global user.name "닉네임"
+
+git branch -M main
+git push -u origin main
+
+
+git add .
+git commit -m "first commit"
+git push -u origin main
